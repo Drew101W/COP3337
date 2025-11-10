@@ -5,3 +5,9 @@
 5. clear - clears the terminal window
 6. crtl + b (show/hide the explorer)
 7. ctrl + ` (show/hide terminal) 
+8. pwd - shows the path of the current directory
+9. g++ <file_name (c++ source code)> - compile the program.
+
+
+name  =  (condition) ? (if true what?) : (if false what);
+y = (x > 50) ? 50 : x;
