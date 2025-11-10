@@ -5,6 +5,9 @@ public:
     Dad() {
         std::cout << "Dad's constructor" << std::endl;
     }
+    ~Dad(){
+        std::cout << "Dynamic memory was deallocated" << std::endl;
+    }
 };
 
 class Son : public Dad {
@@ -21,6 +24,7 @@ public:
 int main(void) {
     Dad *dad = new Son();
 
+    delete dad;
 
 
     return 0;
